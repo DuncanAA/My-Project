@@ -30,9 +30,9 @@ class Professor(Member):
         print('Professor borrow')
 
 student1=Student('M','工管系','M11111111')
-student2=Student('F','工管系','M22222222')
+student2=Student('F','工管系','M33333333')
 professor1=Professor('F','數媒系','S11111111')
-professor2=Professor('M','數媒系','S22222222')
+professor2=Professor('M','數媒系','S33333333')
 ls=[student1,student2,professor1,professor2]
 
 for item in ls:
